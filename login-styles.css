@@ -1,4 +1,8 @@
 /* CSS Start */
+body {
+    margin: 0px;
+}
+
 .container{
     display: flex;
     justify-content: center;
