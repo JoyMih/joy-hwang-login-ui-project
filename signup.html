@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="login-styles.css">
-    <title>Joy's Login UI Project</title>
+    <link rel="stylesheet" href="signup-styles.css">
+    <title>Sign Up</title>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                     <img class="logo" src="Logo/wave-logo.png" alt="Wave Finder Travel Agency Icon">
                 </div>
                 <div class="right">
-                    <h1>Sign in</h1>
+                    <h1>Sign Up</h1>
                     <!-- Included placeholder texts -->
                     <div class="object-1 object">
                         <label for="user-email"><b>Email</b></label>
@@ -28,21 +29,26 @@
                     </div>
 
                     <div class="object-2 object">
-                        <label for="password"><b>Password</b></label>
-                        <input type="text" style="-webkit-text-security: circle" placeholder="Enter Password"
+                        <label for="password"><b>Create Password</b></label>
+                        <input type="text" style="-webkit-text-security: circle" placeholder="Create Password"
+                            name="password" class="text-area" required>
+                    </div>
+                    <div class="object-2 object">
+                        <label for="password"><b>Confirm Password</b></label>
+                        <input type="text" style="-webkit-text-security: circle" placeholder="Confirm Password"
                             name="password" class="text-area" required>
                     </div>
 
                     <div class="object-3 object">
-                        <button type="submit" class="submit-button">Sign In</button>
+                        <button type="submit" class="submit-button">Create Account</button>
                     </div>
                     <!-- Forgot Password -->
                     <div class="object-4 object">
-                        <a href="reset-password.html" target="blank">Reset Password</button>
+                        <a href="login.html" target="blank">Back to Login</button>
                     </div>
                     <!-- New User Sign Up -->
                     <div class="object-5 object">
-                        <a href="signup.html" target="blank">New Account</button>
+                        <a href="reset-password.html" target="blank">Reset Password</button>
                     </div>
                 </div>
             </form>
@@ -50,6 +56,7 @@
     </div>
 
     <video class="summer" src="Coverr/coverr-summer-sequence.webm" autoplay muted loop></video>
+
 </body>
 
 </html>
